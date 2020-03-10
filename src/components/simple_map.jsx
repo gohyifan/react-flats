@@ -6,7 +6,7 @@ const SimpleMap = ({ center, zoom }) => {
   return (
     <div className="map-container">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDtvltTPbKQw0KniBwIdl4liNQlRrSIWSE" }}
+        bootstrapURLKeys={{ key: "" }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
